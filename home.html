@@ -5,58 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/hcss.css">
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class="container">
+    <header class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Alvaro Costa</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="">Blog<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Newsletter</a>
-                </li>
-              </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="">Blog<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Newsletter</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <hr>
-        <h1>THE BLOG</h1>
-        <hr>
+        <section class="row titulo">
+            <h1>THE BLOG</h1>
+        </section>
     </header>
     <main>
-        <h2>Recent blog posts</h2>
-        <section>
-            <div>
-                <img src="">
-                <h6>Sunday, 1 Jan 2023</h6>
-                <h2>UX review presentations</h2>
-                <p>How do oyu create compelling presentations that wow your colleagues and impress yout managers</p>
-                <h6>Design</h6><h6>Research</h6><h6>Presentation</h6>
-            </div>
-            <div>
-                <img src="">
-                <h6>Sunday, 1 Jan 2023</h6>
-                <h2>Migrating to Linear 101</h2>
-                <p>Linear helps streamline software projects, sprints, tasks, and bug tracking. Here's how to get...</p>
-                <h6>Design</h6><h6>Research</h6>
-            </div>
-            <div>
-                <img src="">
-                <h6>Sunday, 1 Jan 2023</h6>
-                <h2>Building your API Stack</h2>
-                <p>The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...</p>
-                <h6>Design</h6><h6>Research</h6>
+        <section class="s1">
+            <h2>Recent blog posts</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="">
+                        <h6>Sunday, 1 Jan 2023</h6>
+                        <h2>UX review presentations</h2>
+                        <p>How do oyu create compelling presentations that wow your colleagues and impress yout managers</p>
+                        <h6>Design</h6><h6>Research</h6><h6>Presentation</h6>
+                    </div>
+                    <div class="col-6">
+                        <div class="container">
+                            <div class="row">
+                                <img src="">
+                                <h6>Sunday, 1 Jan 2023</h6>
+                                <h2>Migrating to Linear 101</h2>
+                                <p>Linear helps streamline software projects, sprints, tasks, and bug tracking. Here's how to get...</p>
+                                <h6>Design</h6><h6>Research</h6>
+                            </div>
+                            <div class="row">
+                                <img src="">
+                                <h6>Sunday, 1 Jan 2023</h6>
+                                <h2>Building your API Stack</h2>
+                                <p>The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...</p>
+                                <h6>Design</h6><h6>Research</h6>
+                            </div>
+                        </div>
+                    </div>    
+                </div>    
             </div>
         </section>
         <section>

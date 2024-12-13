@@ -53,6 +53,52 @@ h1 {
     font-size: 243.8px;
     line-height: 295.05px;
 }
+h2 {
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 32px;
+}
+h5 {
+    font-weight: 600px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6941c6;
+    margin-top: 1rem;
+}
+h6 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    border-radius: 3rem;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.h6-1 {
+    color: #6941C6;
+    background-color: #F9F5FF;
+}
+.h6-2 {
+    color: #3538CD;
+    background-color: #EEF4FF;
+}
+.h6-3 {
+    color : #C11574;
+    background-color: #FDF2FA;
+}
+.h6-4 {
+    color: #026AA2;
+    background-color: #F0F9FF;
+}
+.h6-5 {
+    color: #027A48;
+    background-color: #ECFDF3;
+}
+.h6-6 {
+    background-color: #f8f9fc;
+    color: #363F72;
+}
 .cont1 {
     width: 1440px;
     height: 556px;
@@ -67,4 +113,19 @@ h1 {
     padding-left: 32px;
     gap: 32px;
 }
-
+.f1 {
+    width: 592px;
+    height: 228px;
+}
+.f2 , .f3 {
+    width: 320px;
+    height: 200px;
+}
+.f4 {
+    width: 592px;
+    height: 246px;
+}
+.f5 {
+    width: 384px;
+    height: 240px;
+}
